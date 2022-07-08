@@ -1,0 +1,136 @@
+body {
+  background-color: #fff;
+  font-family: Termina, Varela Round, arial, sans-serif;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 45px;
+  color: rgb(128, 150, 128);
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  max-width: 350px;
+}
+
+h2 {
+  font-size: 23px;
+  font-weight: 100;
+  color: rgb(70, 65, 65);
+  text-align: center;
+}
+
+h3 {
+  font-size: 12px;
+  color: rgb(70, 65, 65);
+  background-color: #fff;
+  text-align: center;
+  margin: auto;
+  max-width: 350px;
+}
+
+p {
+  font-size: 12px;
+  background-color: #fff;
+  color: #000;
+  letter-spacing: 0.03rem;
+  line-height: 1.53;
+  text-align: center;
+  max-width: 350px;
+  margin: auto;
+  padding: auto;
+}
+
+hr {
+  color: rgb(70, 65, 65);
+  max-width: 700px;
+  margin: auto;
+}
+
+ol,
+li {
+  font-size: 14px;
+  max-width: 600px;
+  margin: auto;
+  color: rgb(70, 65, 65);
+}
+
+a {
+  text-decoration: none;
+}
+
+.imgAvo1 {
+  max-width: 450px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1.5px solid rgb(128, 150, 128);
+}
+
+.imgAvo2 {
+  max-width: 350px;
+  display: block;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1.5px solid rgb(128, 150, 128);
+}
+
+a.imgSource {
+  font-size: 8px;
+  background-color: #fff;
+  color: #000;
+  letter-spacing: 0.03rem;
+  line-height: 1.53rem;
+  text-align: center;
+  display: block;
+  max-width: 350px;
+  margin: auto;
+  padding: auto;
+  text-decoration: none;
+}
+
+.learnButton {
+  font-size: 16px;
+  background-color: #fff;
+  color: #000;
+  display: block;
+  margin: 10px auto;
+  padding: 12px 20px;
+  max-width: 178px;
+  border: 1px solid #000;
+  transition: all 150ms ease-in-out;
+  box-shadow: 5px 7px #000;
+}
+
+.learnButton:hover {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.signUpButton {
+  font-size: 10px;
+  text-align: center;
+  display: block;
+  margin: 5px auto;
+  padding: 5px 7px;
+  max-width: 75px;
+  background-color: #fff;
+  color: #000;
+  background: linear-gradient(rgb(250, 178, 172), rgb(190, 228, 210));
+  border: 1px solid #000;
+  transition: all 200ms ease-in-out;
+}
+
+.signUpButton:hover {
+  background: linear-gradient(rgb(190, 228, 210), rgb(250, 178, 172));
+}
+
+.builtBy {
+  font-size: 10px;
+  color: rgb(70, 65, 65);
+  background-color: #fff;
+  text-align: center;
+  margin: auto;
+  max-width: 350px;
+}
