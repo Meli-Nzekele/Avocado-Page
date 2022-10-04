@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How to Grow An Avocado Plant</title>
     <link rel="stylesheet" href="style.css">
+    <title>How to Grow An Avocado Plant</title>
+
 </head>
 
 <body>
@@ -86,28 +87,11 @@
     <br />
     <br />
     <footer class="builtBy">
-        This page was built by <a href="https://incandescent-tapioca-00054a.netlify.app/"><b>Melissa Nzekele</b></a>
-        and is open-sourced on <a href="https://github.com/Meli-Nzekele"><b>Github</b></a>
+        This page was built by <a href="https://incandescent-tapioca-00054a.netlify.app/" class="link"><b>Melissa
+                Nzekele</b></a>
+        and is open-sourced on <a href="https://github.com/Meli-Nzekele" class="link"><b>Github</b></a>
     </footer>
-
-    <script>
-        function signUp() {
-            let name = prompt("What is your name?");
-            let email = prompt("What is your email address?");
-            let h3 = document.querySelector("h3");
-
-            if (name.length > 0 && email.length > 0) {
-                h3.innerHTML = (`Thanks for signing up ${name}!`);
-                alert(`Thanks for signing up ${name}!🌿`)
-            } else {
-                h3.innerHTML = (`Try again!`);
-                alert(`Try again!`)
-            }
-        }
-
-        let newsletterButton = document.querySelector(".signUpButton");
-        newsletterButton.addEventListener("click", signUp);
-    </script>
 </body>
+<script src="./avocado.js"></script>
 
 </html>

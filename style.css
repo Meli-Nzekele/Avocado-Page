@@ -135,6 +135,14 @@ a.imgSource {
   max-width: 350px;
 }
 
+.link {
+  color: rgb(70, 65, 65);
+}
+
+.link:hover {
+  font-style: italic;
+}
+
 @media screen and (max-width: 480px) {
   .imgAvo1,
   .imgAvo2 {
