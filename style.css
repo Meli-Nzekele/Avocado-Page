@@ -127,11 +127,11 @@ a.imgSource {
 }
 
 .builtBy {
-  font-size: 10px;
+  font-size: 8px;
   color: rgb(70, 65, 65);
   background-color: #fff;
   text-align: center;
-  margin: auto;
+  margin: 10px 0;
   max-width: 350px;
 }
 
