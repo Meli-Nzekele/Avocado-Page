@@ -134,3 +134,14 @@ a.imgSource {
   margin: auto;
   max-width: 350px;
 }
+
+@media screen and (max-width: 480px) {
+  .imgAvo1,
+  .imgAvo2 {
+    width: 70%;
+  }
+
+  .method {
+    margin-right: 20px;
+  }
+}
