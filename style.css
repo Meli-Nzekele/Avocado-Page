@@ -131,7 +131,7 @@ a.imgSource {
   color: rgb(70, 65, 65);
   background-color: #fff;
   text-align: center;
-  margin: 10px 0;
+  margin: 0 auto;
   max-width: 350px;
 }
 
