@@ -104,6 +104,8 @@ a.imgSource {
   background-color: #000;
   color: #fff;
   border: 1px solid #fff;
+  box-shadow: 1px 1px #000;
+  transform: translateY(5px);
 }
 
 .signUpButton {
@@ -123,9 +125,9 @@ a.imgSource {
 .signUpButton:hover {
   background-color: #000;
   color: #fff;
-  transform: translateY(5px);
   border: 1px solid #fff;
   box-shadow: 1px 1px #000;
+  transform: translateY(5px);
 }
 
 .builtBy {
