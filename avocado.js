@@ -5,7 +5,7 @@ function signUp() {
 
   if (name.length > 0 && email.length > 0) {
     h3.innerHTML = `Thanks for signing up ${name}!`;
-    alert(`Thanks for signing up ${name}!🌿`);
+    alert(`Thanks for signing up ${name}! 🌿`);
   } else {
     h3.innerHTML = `Try again!`;
     alert(`Try again!`);
