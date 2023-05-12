@@ -21,12 +21,10 @@ h2 {
 }
 
 h3 {
-  font-size: 12px;
+  font-size: 24px;
   color: rgb(70, 65, 65);
   background-color: #fff;
   text-align: center;
-  margin: auto;
-  max-width: 350px;
 }
 
 p {
@@ -109,21 +107,25 @@ a.imgSource {
 }
 
 .signUpButton {
-  font-size: 10px;
-  text-align: center;
-  display: block;
-  margin: 5px auto;
-  padding: 5px 7px;
-  max-width: 75px;
+  font-size: 16px;
   background-color: #fff;
   color: #000;
-  background: linear-gradient(rgb(250, 178, 172), rgb(190, 228, 210));
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+  padding: 10px;
+  max-width: 100px;
   border: 1px solid #000;
-  transition: all 200ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  box-shadow: 5px 7px #000;
 }
 
 .signUpButton:hover {
-  background: linear-gradient(rgb(190, 228, 210), rgb(250, 178, 172));
+  background-color: #000;
+  color: #fff;
+  transform: translateY(5px);
+  border: 1px solid #fff;
+  box-shadow: 1px 1px #000;
 }
 
 .builtBy {
